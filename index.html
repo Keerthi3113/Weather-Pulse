@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WeatherPulse</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="dashboard">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <span>🌤️</span>
+                <h1>WeatherPulse</h1>
+            </div>
+
+            <p>
+                Real-time weather information at your fingertips
+            </p>
+        </header>
+
+
+        <!-- Search -->
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name..."
+                autocomplete="off"
+            >
+
+            <button id="searchBtn">
+                🔍 Search
+            </button>
+
+        </section>
+
+
+        <!-- Error -->
+        <p id="error"></p>
+
+
+        <!-- Main Weather Information -->
+        <section class="weather-main">
+
+            <h2 id="cityName">
+                Search for a city
+            </h2>
+
+            <img
+                id="weatherIcon"
+                src="https://openweathermap.org/img/wn/01d@2x.png"
+                alt="Weather"
+            >
+
+            <p id="conditionTop">
+                Current Weather
+            </p>
+
+        </section>
+
+
+        <!-- Weather Cards -->
+        <section class="weather-grid">
+
+            <!-- Temperature -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">🌡️</span>
+                    <span>Temperature</span>
+                </div>
+
+                <div class="card-value" id="temp">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Humidity -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">💧</span>
+                    <span>Humidity</span>
+                </div>
+
+                <div class="card-value" id="humidity">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Wind Speed -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">🌬️</span>
+                    <span>Wind Speed</span>
+                </div>
+
+                <div class="card-value" id="wind">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Condition -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">☁️</span>
+                    <span>Condition</span>
+                </div>
+
+                <div class="card-value" id="condition">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Feels Like -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">🤗</span>
+                    <span>Feels Like</span>
+                </div>
+
+                <div class="card-value" id="feels">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Pressure -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">📊</span>
+                    <span>Pressure</span>
+                </div>
+
+                <div class="card-value" id="pressure">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Visibility -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">👀</span>
+                    <span>Visibility</span>
+                </div>
+
+                <div class="card-value" id="visibility">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Sunrise -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">🌅</span>
+                    <span>Sunrise</span>
+                </div>
+
+                <div class="card-value" id="sunrise">
+                    --
+                </div>
+            </div>
+
+
+            <!-- Sunset -->
+            <div class="weather-card">
+                <div class="card-title">
+                    <span class="emoji">🌇</span>
+                    <span>Sunset</span>
+                </div>
+
+                <div class="card-value" id="sunset">
+                    --
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
