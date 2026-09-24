@@ -34,43 +34,56 @@ A responsive weather dashboard built using **HTML, CSS, and JavaScript** that fe
 - Vercel Serverless Functions
 - Git & GitHub
 
+## 🔄 How It Works
+
+    User enters city
+           ↓
+    JavaScript sends request
+           ↓
+    Vercel Serverless API
+           ↓
+    OpenWeatherMap API
+           ↓
+    Weather data returned
+           ↓
+    Dashboard updates
+
+The OpenWeatherMap API key is stored as a **server-side environment variable** and is not exposed in the frontend code.
+
 ## 📂 Project Structure
 
-```text
-WeatherPulse/
-│
-├── api/
-│   └── weather.js
-├── index.html
-├── style.css
-├── script.js
-├── vercel.json
-├── .gitignore
-└── README.MD
+    WeatherPulse/
+    │
+    ├── api/
+    │   └── weather.js
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    ├── vercel.json
+    ├── .gitignore
+    └── README.MD
 
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
 
-git clone https://github.com/Keerthi3113/Weather-Pulse.git
+    git clone https://github.com/Keerthi3113/Weather-Pulse.git
 
 ### 2. Navigate to the project folder
 
-cd Weather-Pulse
+    cd Weather-Pulse
 
 ### 3. Configure the API key
 
 Create a local `.env` file:
 
-OPENWEATHER_API_KEY=YOUR_API_KEY
+    OPENWEATHER_API_KEY=YOUR_API_KEY
 
 The API key is stored as a server-side environment variable and is not included in the frontend code.
 
 ### 4. Run the project
 
 Deploy the project through Vercel with the `OPENWEATHER_API_KEY` environment variable configured.
-
----
 
 ## 📚 Learning Outcomes
 
@@ -86,8 +99,6 @@ Deploy the project through Vercel with the `OPENWEATHER_API_KEY` environment var
 - Building Responsive Web Interfaces
 - Deploying a web application using Vercel
 
----
-
 ## 🔮 Future Improvements
 
 - 📅 5-Day Weather Forecast
@@ -97,11 +108,13 @@ Deploy the project through Vercel with the `OPENWEATHER_API_KEY` environment var
 - 🎨 Dynamic Weather Backgrounds
 - ⏳ Loading Animation
 
----
-
 ## 👨‍💻 Author
 
 **Guna Lalitha Keerthi Inavalli**
 
 - GitHub: https://github.com/Keerthi3113
 - Live Demo: https://weather-pulse-khaki.vercel.app/
+
+---
+
+⭐ If you found this project useful, please consider giving it a Star!
