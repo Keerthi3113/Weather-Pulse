@@ -48,48 +48,60 @@ WeatherPulse/
 ├── .gitignore
 └── README.MD
 
-##⚙️ Getting Started
-1. Clone the repository
-git clone https://github.com/Keerthi3113/Weather-Pulse.git
-2. Navigate to the project folder
-cd Weather-Pulse
-3. Configure the API key
+## ⚙️ Getting Started
 
-Create a local .env file:
+### 1. Clone the repository
+
+git clone https://github.com/Keerthi3113/Weather-Pulse.git
+
+### 2. Navigate to the project folder
+
+cd Weather-Pulse
+
+### 3. Configure the API key
+
+Create a local `.env` file:
 
 OPENWEATHER_API_KEY=YOUR_API_KEY
 
 The API key is stored as a server-side environment variable and is not included in the frontend code.
 
-4. Run the project
+### 4. Run the project
 
-Deploy the project through Vercel with the OPENWEATHER_API_KEY environment variable configured.
+Deploy the project through Vercel with the `OPENWEATHER_API_KEY` environment variable configured.
 
-##📚 Learning Outcomes
-Working with RESTful APIs
-Using the Fetch API
-Asynchronous JavaScript with Async/Await
-Parsing JSON data
-DOM Manipulation
-Event Handling
-Error Handling using try...catch
-Working with serverless API functions
-Protecting API credentials
-Building Responsive Web Interfaces
-Deploying a web application using Vercel
-🔮 Future Improvements
-📅 5-Day Weather Forecast
-📍 Current Location Weather
-🌙 Dark Mode
-🌡️ Temperature Unit Toggle (°C/°F)
-🎨 Dynamic Weather Backgrounds
-⏳ Loading Animation
+---
 
-##👨‍💻 Author
+## 📚 Learning Outcomes
 
-Guna Lalitha Keerthi Inavalli
+- Working with RESTful APIs
+- Using the Fetch API
+- Asynchronous JavaScript with Async/Await
+- Parsing JSON data
+- DOM Manipulation
+- Event Handling
+- Error Handling using `try...catch`
+- Working with serverless API functions
+- Protecting API credentials
+- Building Responsive Web Interfaces
+- Deploying a web application using Vercel
 
-GitHub: https://github.com/Keerthi3113
-Live Demo: https://weather-pulse-khaki.vercel.app/
+---
 
-⭐ If you found this project useful, please consider giving it a Star!
+## 🔮 Future Improvements
+
+- 📅 5-Day Weather Forecast
+- 📍 Current Location Weather
+- 🌙 Dark Mode
+- 🌡️ Temperature Unit Toggle (°C/°F)
+- 🎨 Dynamic Weather Backgrounds
+- ⏳ Loading Animation
+
+---
+
+## 👨‍💻 Author
+
+**Guna Lalitha Keerthi Inavalli**
+
+- GitHub: https://github.com/Keerthi3113
+- Live Demo: https://weather-pulse-khaki.vercel.app/
