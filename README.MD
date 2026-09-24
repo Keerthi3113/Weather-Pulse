@@ -47,7 +47,8 @@ WeatherPulse/
 ├── vercel.json
 ├── .gitignore
 └── README.MD
-⚙️ Getting Started
+
+##⚙️ Getting Started
 1. Clone the repository
 git clone https://github.com/Keerthi3113/Weather-Pulse.git
 2. Navigate to the project folder
@@ -64,7 +65,7 @@ The API key is stored as a server-side environment variable and is not included 
 
 Deploy the project through Vercel with the OPENWEATHER_API_KEY environment variable configured.
 
-📚 Learning Outcomes
+##📚 Learning Outcomes
 Working with RESTful APIs
 Using the Fetch API
 Asynchronous JavaScript with Async/Await
@@ -83,7 +84,8 @@ Deploying a web application using Vercel
 🌡️ Temperature Unit Toggle (°C/°F)
 🎨 Dynamic Weather Backgrounds
 ⏳ Loading Animation
-👨‍💻 Author
+
+##👨‍💻 Author
 
 Guna Lalitha Keerthi Inavalli
 
