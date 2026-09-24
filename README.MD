@@ -1,118 +1,93 @@
-# 🌤 WeatherPulse - Real-Time Weather Dashboard
+# 🌤️ WeatherPulse - Real-Time Weather Dashboard
 
-A responsive weather dashboard built using **HTML**, **CSS**, and **JavaScript** that fetches real-time weather data from the **OpenWeatherMap REST API**. The application allows users to search for any city and view live weather information through a clean, responsive interface.
+A responsive weather dashboard built using **HTML, CSS, and JavaScript** that fetches real-time weather data from the **OpenWeatherMap REST API** through a secure serverless API.
 
 ## 🚀 Live Demo
 
-🔗 **Live Demo:** [WeatherPulse](https://keerthi3113.github.io/Weather-Pulse/)
-
----
+🔗 **Live Demo:** https://weather-pulse-khaki.vercel.app/
 
 ## 📖 Features
 
-* 🔍 Search weather by city name
-* 🌡 Display current temperature
-* 💧 View humidity and atmospheric pressure
-* 🌬 Display wind speed
-* ☁ View current weather condition with weather icons
-* 🤗 Display feels-like temperature
-* 👀 Show visibility
-* 🌅 Display sunrise and sunset times
-* 🌍 Display city and country information
-* ⚡ Fetch real-time weather data using Fetch API and Async/Await
-* ❌ Handle invalid city names and network errors gracefully
-* 📱 Responsive and user-friendly interface
+- 🔍 Search weather by city name
+- 🌡️ Display current temperature
+- 💧 View humidity and atmospheric pressure
+- 🌬️ Display wind speed
+- ☁️ View current weather condition with weather icons
+- 🤗 Display feels-like temperature
+- 👀 Show visibility
+- 🌅 Display sunrise and sunset times
+- 🌍 Display city and country information
+- ⚡ Fetch real-time weather data using Fetch API and Async/Await
+- 🔐 Keep the OpenWeatherMap API key on the server side
+- ❌ Handle invalid city names and API errors
+- 📱 Responsive and user-friendly interface
 
----
+## 🛠️ Technologies Used
 
-## 🛠 Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript (ES6+)
-* Fetch API
-* Async/Await
-* OpenWeatherMap REST API
-
----
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Fetch API
+- Async/Await
+- JSON
+- OpenWeatherMap REST API
+- Vercel Serverless Functions
+- Git & GitHub
 
 ## 📂 Project Structure
 
 ```text
 WeatherPulse/
+│
+├── api/
+│   └── weather.js
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
-```
-
----
-
-## ⚙️ Getting Started
-
-### 1. Clone the repository
-
-```bash
+├── vercel.json
+├── .gitignore
+└── README.MD
+⚙️ Getting Started
+1. Clone the repository
 git clone https://github.com/Keerthi3113/Weather-Pulse.git
-```
-
-### 2. Navigate to the project folder
-
-```bash
+2. Navigate to the project folder
 cd Weather-Pulse
-```
+3. Configure the API key
 
-### 3. Get your OpenWeatherMap API Key
+Create a local .env file:
 
-Create a free account at OpenWeatherMap and generate your API key.
+OPENWEATHER_API_KEY=YOUR_API_KEY
 
-Replace the placeholder in `script.js`:
+The API key is stored as a server-side environment variable and is not included in the frontend code.
 
-```javascript
-const apiKey = "YOUR_API_KEY";
-```
+4. Run the project
 
-> **Note:** Do not commit your personal API key to GitHub.
+Deploy the project through Vercel with the OPENWEATHER_API_KEY environment variable configured.
 
-### 4. Run the project
+📚 Learning Outcomes
+Working with RESTful APIs
+Using the Fetch API
+Asynchronous JavaScript with Async/Await
+Parsing JSON data
+DOM Manipulation
+Event Handling
+Error Handling using try...catch
+Working with serverless API functions
+Protecting API credentials
+Building Responsive Web Interfaces
+Deploying a web application using Vercel
+🔮 Future Improvements
+📅 5-Day Weather Forecast
+📍 Current Location Weather
+🌙 Dark Mode
+🌡️ Temperature Unit Toggle (°C/°F)
+🎨 Dynamic Weather Backgrounds
+⏳ Loading Animation
+👨‍💻 Author
 
-Open `index.html` in your browser or use the Live Server extension in Visual Studio Code.
+Guna Lalitha Keerthi Inavalli
 
----
+GitHub: https://github.com/Keerthi3113
+Live Demo: https://weather-pulse-khaki.vercel.app/
 
-## 📚 Learning Outcomes
-
-Through this project, I learned:
-
-* Working with RESTful APIs
-* Using the Fetch API
-* Asynchronous JavaScript with Async/Await
-* Parsing JSON data
-* DOM Manipulation
-* Event Handling
-* Error Handling using `try...catch`
-* Building Responsive Web Interfaces
-
----
-
-## 🔮 Future Improvements
-
-* 📅 5-Day Weather Forecast
-* 📍 Current Location Weather
-* 🌙 Dark Mode
-* 🌡 Temperature Unit Toggle (°C/°F)
-* 🎨 Dynamic Weather Backgrounds
-* ⏳ Loading Animation
-
----
-
-## 👨‍💻 Author
-
-**Guna Lalitha Keerthi Inavalli**
-
-* GitHub: https://github.com/Keerthi3113
-* Live Demo: https://keerthi3113.github.io/Weather-Pulse/
-
----
-
-⭐ **If you found this project useful, please consider giving it a Star!**
+⭐ If you found this project useful, please consider giving it a Star!
