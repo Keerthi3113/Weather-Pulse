@@ -1,5 +1,5 @@
 // OpenWeatherMap API Key
-const apiKey = "09852cb7b4ae7b38a7a73afa0ca529e3";
+// const apiKey = "09852cb7b4ae7b38a7a73afa0ca529e3";
 
 
 // Get HTML elements
@@ -51,7 +51,7 @@ async function getWeather(city) {
     try {
 
         const response = await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric`
+            `/api/weather?city=${encodeURIComponent(city)}`
         );
 
 
